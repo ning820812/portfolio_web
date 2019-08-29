@@ -1,0 +1,42 @@
+body {
+  background-color: #EAE1D7;
+}
+
+* {
+  font-family: 'Libre Baskerville', serif;
+  color: #083651;
+}
+
+#logo {
+  display: inline-block;
+  margin: 55px 200px;
+  font-size: 2.1em;
+  font-weight: bold;
+  color: #083651;
+  letter-spacing: 7px;
+  border-bottom: 0px solid #000;
+}
+
+nav a {
+  padding: 7px 30px;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  letter-spacing: 1.5px;
+  padding: 70px;
+  text-align: center;
+}
+
+#nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+/*# sourceMappingURL=style.css.map */
